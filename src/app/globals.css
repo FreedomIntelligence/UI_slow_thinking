@@ -73,6 +73,6 @@ body {
 
 .assistant-bubble:last-child .thought {
   position: sticky;
-  top: -16px;
+  top: 0;
   @apply bg-secondary;
 }

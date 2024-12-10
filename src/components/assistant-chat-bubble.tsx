@@ -53,9 +53,9 @@ export const AssistantChatBubble: FC<AssistantChatBubbleProps> = ({
         <Collapsible
           open={isOpen}
           onOpenChange={setIsOpen}
-          className="w-full space-y-2 thought py-4"
+          className="w-full space-y-2 py-4"
         >
-          <div className="flex items-center justify-between space-x-4 px-4">
+          <div className="flex items-center justify-between space-x-4 px-4 thought">
             <h4 className="text-sm font-semibold">模型内部深度思考</h4>
             <CollapsibleTrigger asChild>
               <Button variant="ghost" size="sm" className="w-9 p-0">
